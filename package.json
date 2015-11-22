@@ -1,0 +1,31 @@
+{
+  "name": "gnome-terminal-version",
+  "version": "0.1.0",
+  "description": "Gets the version of the system's gnome-terminal",
+  "main": "index.js",
+  "scripts": {
+    "doc": "documentation-readme -s \"API\"",
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tyriar/gnome-terminal-version.git"
+  },
+  "keywords": [
+    "terminal"
+  ],
+  "author": "Daniel Imms (http://www.growingwiththeweb.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tyriar/gnome-terminal-version/issues"
+  },
+  "homepage": "https://github.com/Tyriar/gnome-terminal-version",
+  "devDependencies": {
+    "ava": "^0.4.2",
+    "documentation-readme": "^2.1.0",
+    "xo": "^0.10.1"
+  },
+  "xo": {
+    "space": 2
+  }
+}
