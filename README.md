@@ -10,4 +10,24 @@ npm install --save gnome-terminal-version
 
 ## Usage
 
-TODO
+```js
+var gnomeTerminalVersion = require('gnome-terminal-version');
+gnomeTerminalVersion(function (version) {
+  if (typeof version !== 'undefined') {
+    console.log('Version: ' + version);
+  }
+});
+```
+
+## API
+
+### index
+
+Gets the version of the system's gnome-terminal.
+
+**Parameters**
+
+-   `callback`  
+
+Returns **string or undefined** the version for the system's gnome-terminal.
+undefined if gnome-terminal does not exist or gives unexpected output.
