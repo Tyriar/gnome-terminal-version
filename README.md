@@ -27,7 +27,7 @@ Gets the version of the system's gnome-terminal.
 
 **Parameters**
 
--   `callback`  
+-   `callback`
 
 Returns **string or undefined** the version for the system's gnome-terminal.
 undefined if gnome-terminal does not exist or gives unexpected output.
