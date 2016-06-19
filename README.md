@@ -1,6 +1,6 @@
-# gnome-terminal-version [![NPM version](http://img.shields.io/npm/v/gnome-terminal-version.svg?style=flat)](https://www.npmjs.org/package/gnome-terminal-version)
+# gnome-terminal-version
 
-[![Build Status](http://img.shields.io/travis/Tyriar/gnome-terminal-version.svg?style=flat)](https://travis-ci.org/Tyriar/gnome-terminal-version)
+[![Build Status](https://api.travis-ci.org/Tyriar/gnome-terminal-version.svg)](https://travis-ci.org/Tyriar/gnome-terminal-version)
 
 ## Install
 
